@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "hooks/useTransactions.js", "components/SafeScreen.jsx", "components/SignOutButton.jsx", "constants/colors.js", "app/(auth)/_layout.jsx", "app/(auth)/sign-in.jsx", "app/(auth)/sign-up.jsx", "app/(root)/_layout.jsx", "app/(root)/index.jsx", "app/_layout.jsx", "assets/styles/auth.styles.js", "assets/styles/create.styles.js", "assets/styles/home.styles.js", "lib/utils.js"  ]
+}
